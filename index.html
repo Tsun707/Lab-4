@@ -5,21 +5,16 @@
 <title>Volunteer Form</title>
 </head>
 <body>
-<fieldset>
-<legend>Volunteer From</legend>
-<h4>My Info</h4>
-<div>
-<label>First Name:<input type="text" name="fist_name_field"></label>
-</div>
-<div>
-<label>Last Name:<input type="text" name="text_field"></label>
-</div>
-<div>
-<label>Phone Number:<input type="text" name="text_field"></label>
-</div>
-<div>
-<label>Email Address:<input type="text" name="text_field"></label>
-</div>
+
+<h1>Volunteer Form</h1>
+<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">															  
+<fieldset>			  
+<legend>My Info</legend>
+
+<div><label>First Name:<input type="text" name="fist_name_field"></label></div>
+<div><label>Last Name:<input type="text" name="text_field"></label>      </div>
+<div><label>Phone Number:<input type="text" name="text_field"></label>   </div>
+<div><label>Email Address:<input type="text" name="text_field"></label>  </div>
 <label>Gender:
 <label>Male:<input type="radio" name="radio_field" checked="checked" value="M" ></label>
 <label>Female:<input type="radio" name="radio_field" value="F"></label>
@@ -38,7 +33,6 @@
 </div>
 </fieldset>
 <fieldset>
-
 <legend>My Available</legend>
 <h3>Days Available:</h3>
 <div>	   
@@ -51,7 +45,7 @@
 <div><label>Saturday<input type="checkbox" name="availble_field[]" value="sat"></label></div>
 
 <div>
-<h3>Commentsz</h3>
+<h3>any Comments</h3>
 <textarea name="comments_field"></textarea>
 </div>
 </fieldset> 
@@ -61,5 +55,6 @@
 <div>
 <input type="hidden" name="hidden_field" value="Volunteer ***">
 </div>
+</form>
 </body>
 </html> 
