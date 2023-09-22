@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="Utf-8">
+<title>Volunteer Form</title>
+</head>
+<body>
+<fieldset>
+<legend>Volunteer From</legend>
+<h4>My Info</h4>
+<div>
+<label>First Name:<input type="text" name="text_field"></label>
+</div>
+<div>
+<label>Last Name:<input type="text" name="text_field"></label>
+</div>
+<div>
+<label>Phone Number:<input type="text" name="text_field"></label>
+</div>
+<div>
+<label>Email Address:<input type="text" name="text_field"></label>
+</div>
+<label>Gender:
+<label>Male:<input type="radio" name="radio_field" checked="checked" value="M" ></label>
+<label>Female:<input type="radio" name="radio_field" value="F"></label>
+</label>
+<div>
+<label>Age:</label>
+<select name="menu_field">
+	<option>under18<input type="menu" name="menu_field" value="under18"></option>
+	<option>18-24<input type="menu" name="menu_field" value="18-24"></option>
+	<option>25-34<input type="menu" name="menu_field" value="25-34"></option>
+	<option>35-44<input type="menu" name="menu_field" value="35-44"></option>
+	<option>45-54<input type="menu" name="menu_field" value="45-54"></option>
+	<option>55-64<input type="menu" name="menu_field" value="55-64"></option>
+	<option>65 and over<input type="menu" name="menu_field" value="65 and over"></option>
+<select>
+</div>
+</fieldset>
+<fieldset>
+<legend>My Available</legend>
+<div>
+<label>Days Available:</label>
+<label>Sunday<input type="checkbox name="checkbox_field[]" value="sun " checked="checked"></label> 
+<label>Monday<input type="checkbox name="checkbox_field[]" value="mon "></label> 
+<label>Tuesday<input type="checkbox name="checkbox_field[]" value="tue "></label> 
+<label>Wednesday<input type="checkbox name="checkbox_field[]" value="web "></label>
+<label>Thursday<input type="checkbox name="checkbox_field[]" value="thu "></label>
+<label>Friday<input type="checkbox name="checkbox_field[]" value="fri "></label>
+<label>Saturday<input type="checkbox name="checkbox_field[]" value="sat "></label>
+</div>
+<div>
+<label for="our_textarea">Any Comments?</label>
+<textarea cols="20" rows="6" name="textarea_field" id="our_textarea"></textarea>
+</div>
+</fieldset> 
+<input type="submit" value="Send Me">
+<div>
+<input type="hidden" name="hidden_field" value="Volunteer ***">
+</div>
+</body>
+</html> 
